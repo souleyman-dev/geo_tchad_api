@@ -1,0 +1,35 @@
+# Django et DRF
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+django-filter>=23.2
+django-cors-headers>=4.0.0
+
+# Base de données (optionnel, pour production)
+psycopg2-binary>=2.9.6  # PostgreSQL
+mysqlclient>=2.2.0      # MySQL
+
+# Cache (optionnel)
+redis>=4.5.0
+django-redis>=5.2.0
+
+# Outils de développement
+python-dotenv>=1.0.0
+ipython>=8.12.0
+
+# Tests
+coverage>=7.2.0
+factory-boy>=3.2.1
+
+# Documentation
+drf-spectacular>=0.26.0  # OpenAPI/Swagger
+
+# Déploiement
+gunicorn>=20.1.0
+whitenoise>=6.4.0
+
+# Monitoring (optionnel)
+sentry-sdk>=1.25.0
+
+# Utilitaires
+python-dateutil>=2.8.2
+pytz>=2023.3
