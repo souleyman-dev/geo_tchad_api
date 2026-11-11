@@ -20,7 +20,7 @@ jedi==0.19.2
 jsonschema==4.25.1
 jsonschema-specifications==2025.9.1
 matplotlib-inline==0.1.7
-mysqlclient==2.2.7
+PyMySQL==1.1.1
 packaging==25.0
 parso==0.8.5
 pexpect==4.9.0
