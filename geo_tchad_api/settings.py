@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'geo_tchad_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql', 
+        'ENGINE': 'django.db.backends.mysql', 
         'NAME': os.environ.get('DB_NAME'),
         'USER': os.environ.get('DB_USER'),
         'PASSWORD': os.environ.get('DB_PASSWORD'),
@@ -139,7 +139,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # 4. CONFIGURATION CORS
 CORS_ALLOWED_ORIGINS = [
-    os.environ.get('CORS_ALLOWED_ORIGIN', 'http://localhost:5173','http://localhost:3000')
+    os.environ.get('CORS_ALLOWED_ORIGIN', 'http://localhost:5173')
 ]
 
 CORS_ALLOW_CREDENTIALS = True
